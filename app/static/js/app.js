@@ -8,6 +8,7 @@ const app = Vue.createApp({
 });
 
 app.component('app-header', {
+  name: 'AppHeader',
   template: `
       <header>
           <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
@@ -35,6 +36,7 @@ app.component('app-header', {
 });
 
 app.component('app-footer', {
+  name: 'AppFooter',
   template: `
       <footer>
           <div class="container">
